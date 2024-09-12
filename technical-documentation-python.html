@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="navigation-pannel">
+      <nav id="navbar">
+        <header>
+          <h1 id="title">Python Technical Document</h1>
+        </header>
+          <div class="box">
+            <a class="nav-link" href="#Introduction">Introduction</a>
+          </div>
+          <div class="box">
+            <a class="nav-link" href="#Hello_World">Hello World</a>
+          </div>
+          <div class="box">
+          <a class="nav-link" href="#Data_Types">Data Types</a>
+          </div>
+          <div class="box">
+          <a class="nav-link" href="#Variables">Variables</a>
+          </div>
+          <div class="box">
+          <a class="nav-link" href="#If_Statements">If Statements</a>
+          </div>
+          <div class="box">
+          <a class="nav-link" href="#For_Statements">For Statements</a>
+          </div>
+          <div class="box">
+          <a class="nav-link" href="#References">References</a>
+          </div>
+      </nav>
+    </div>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>
+          <h1>Introduction</h1>
+        </header>
+        <p>Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.</p>
+      </section>
+      <!-- Hello World -->
+      <section class="main-section" id="Hello_World">
+        <header>
+          <h1>Hello World</h1>
+        </header>
+        <p>To get started with writing Python write your first "Hello world" Script:</p>
+<ol>
+  <li>Open a text editor or an Integrated Development Environment (IDE) of your choice.</li>
+<li>Create a new file and save it with a .py extension, such as hello_world.py.</li>
+<li>In your file, type the following code:</li> <code class="no-margin">print("Hello, World!").</code></li>
+<li>Save the file run the program to see the output.</li>
+      </section>
+      <!-- Data Types -->
+      <section class="main-section" id="Data_Types">
+        <header>
+          <h1>Data Types</h1>
+        </header>
+        <p>Python has several built-in data types that are categorized into various classes:</p>
+        <ul>
+          <li>Text Type: str</li>
+          <li>Numeric Types: int, float, complex</li>
+          <li>Sequence Types: list, tuple, range</li>
+          <li>Mapping Type: dict</li>
+          <li>Set Types: set, frozenset</li>
+          <li>Boolean Type: bool</li>
+      </section>
+      <section class="main-section" id="Variables">
+        <header>
+          <h1>Variables</h1>
+        </header>
+        <p>You use variables as symbolic names for values in your application. A variable can hold a value for any data type. A variable can be called with the code
+X = “Hello World”
+From now on any time the variable X is used it will fill in the value with “Hello World”. Exe:</p>
+<code>
+  Print(X) <span class="note">#will output the string “hello world”</span> 
+</code>
+      </section>
+      <section class="main-section" id="If_Statements">
+        <header>
+          <h1>If Statements</h1>
+        </header>
+        <p>An if statement can be used to run code ONLY when a curtain case is fulfilled.<br>
+Any number of elif statements can be added on to an if statement for other cases.<br>
+An else statement can be added to the end of an if statement to run code when no other cases are met</p>
+<p class="bold">Example:</p>
+<code>x = int(input("Please enter an integer: ")) <span class="note">#requests the user to input a number</span> <br>
+<br>
+if x < 0:  <span class="note">#if number inputted is less than 0 the code prints “Negative Number”</span><br>
+    print('Negative number')<br>
+    <br>
+elif x == 0: <span class="note">#if number inputted is equal to zero the code prints “Zero”</span><br>
+    print('Zero')<br>
+    <br>
+else: <span class="note">#If neither case is met (ie the number is not negative and is not zero) the code prints “Positive Number”</span><br>
+    print(Positive Number)</code>
+      </section>
+      <section class="main-section" id="For_Statements">
+        <header>
+          <h1>For Statements</h1>
+        </header>
+        <p>Python’s for statement iterates over the items of any sequence (a list or a string), in the order that they appear in the sequence. </p>
+        <p class="bold">Example</p>
+        <code>words = ['cat', 'window', 'defenestrate'] <span class="note">#list with 3 different words</span><br>
+        <br>
+for w in words: <span class="note">#itterates once for each word in the list</span><br>
+    <span class="indent">print(w, len(w))</span> <span class="note">#prints the w’th word from the list with the number of characters in it</span><br>
+    <br>
+. . . output . . .<br>
+cat 3
+window 6
+defenestrate 12</code>
+      </section>
+      <section class="main-section" id="References">
+        <header>
+          <h1>References</h1>
+        </header>
+        <p><a href="https://docs.python.org/3/tutorial/index.html" target="_blank">The Python Tutorial — Python 3.12.5 documentation</p>
+        <p><a href="https://www.w3schools.com/python/python_datatypes.asp" target="_blank">Python Data Types (w3schools.com)</p>
+        <p><a>
+          <code></code> 
+      </section>
+      
+    </main>
+  </body>
+</html>
+
+
+** end of undefined **
+
